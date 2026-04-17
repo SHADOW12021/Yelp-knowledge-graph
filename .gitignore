@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+artifacts/
+dist/
+build/
+*.egg-info/
+Yelp-JSON/
+Yelp-JSON.zip
+*.tar
+__MACOSX/

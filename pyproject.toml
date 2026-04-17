@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yelp-latent-kg"
+version = "0.1.0"
+description = "Discover latent Yelp business attributes from reviews and build a queryable knowledge graph."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "networkx>=3.2",
+  "scikit-learn>=1.5",
+  "sentence-transformers>=3.0",
+  "bertopic>=0.16",
+  "umap-learn>=0.5",
+  "hdbscan>=0.8",
+]
+
+[project.optional-dependencies]
+llm = [
+  "openai>=1.40.0",
+]
+
+[project.scripts]
+yelp-kg = "yelp_kg.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

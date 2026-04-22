@@ -1,7 +1,9 @@
 .venv/
 __pycache__/
 *.pyc
-artifacts/
+artifacts/smoke_test/   
+artifacts/full_run/
+artifacts/pa_full_reviews/
 dist/
 build/
 *.egg-info/

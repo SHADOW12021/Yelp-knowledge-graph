@@ -1,0 +1,229 @@
+{
+  "total_businesses": 150346,
+  "open_businesses": 119698,
+  "closed_businesses": 30648,
+  "review_count_stats_from_business_table": {
+    "count": 150346,
+    "mean": 44.8666,
+    "median": 15.0,
+    "min": 5.0,
+    "max": 7568.0,
+    "p90": 97.0,
+    "p95": 173.0,
+    "p99": 473.0
+  },
+  "business_star_stats": {
+    "count": 150346,
+    "mean": 3.5967,
+    "median": 3.5,
+    "min": 1.0,
+    "max": 5.0,
+    "p90": 5.0,
+    "p95": 5.0,
+    "p99": 5.0
+  },
+  "top_states": [
+    {
+      "state": "PA",
+      "business_count": 34039
+    },
+    {
+      "state": "FL",
+      "business_count": 26330
+    },
+    {
+      "state": "TN",
+      "business_count": 12056
+    },
+    {
+      "state": "IN",
+      "business_count": 11247
+    },
+    {
+      "state": "MO",
+      "business_count": 10913
+    },
+    {
+      "state": "LA",
+      "business_count": 9924
+    },
+    {
+      "state": "AZ",
+      "business_count": 9912
+    },
+    {
+      "state": "NJ",
+      "business_count": 8536
+    },
+    {
+      "state": "NV",
+      "business_count": 7715
+    },
+    {
+      "state": "AB",
+      "business_count": 5573
+    },
+    {
+      "state": "CA",
+      "business_count": 5203
+    },
+    {
+      "state": "ID",
+      "business_count": 4467
+    },
+    {
+      "state": "DE",
+      "business_count": 2265
+    },
+    {
+      "state": "IL",
+      "business_count": 2145
+    },
+    {
+      "state": "TX",
+      "business_count": 4
+    },
+    {
+      "state": "CO",
+      "business_count": 3
+    },
+    {
+      "state": "WA",
+      "business_count": 2
+    },
+    {
+      "state": "HI",
+      "business_count": 2
+    },
+    {
+      "state": "MA",
+      "business_count": 2
+    },
+    {
+      "state": "NC",
+      "business_count": 1
+    },
+    {
+      "state": "UT",
+      "business_count": 1
+    },
+    {
+      "state": "MT",
+      "business_count": 1
+    },
+    {
+      "state": "MI",
+      "business_count": 1
+    },
+    {
+      "state": "SD",
+      "business_count": 1
+    },
+    {
+      "state": "XMS",
+      "business_count": 1
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "Restaurants",
+      "business_count": 52268
+    },
+    {
+      "category": "Food",
+      "business_count": 27781
+    },
+    {
+      "category": "Shopping",
+      "business_count": 24395
+    },
+    {
+      "category": "Home Services",
+      "business_count": 14356
+    },
+    {
+      "category": "Beauty & Spas",
+      "business_count": 14292
+    },
+    {
+      "category": "Nightlife",
+      "business_count": 12281
+    },
+    {
+      "category": "Health & Medical",
+      "business_count": 11890
+    },
+    {
+      "category": "Local Services",
+      "business_count": 11198
+    },
+    {
+      "category": "Bars",
+      "business_count": 11065
+    },
+    {
+      "category": "Automotive",
+      "business_count": 10773
+    },
+    {
+      "category": "Event Planning & Services",
+      "business_count": 9895
+    },
+    {
+      "category": "Sandwiches",
+      "business_count": 8366
+    },
+    {
+      "category": "American (Traditional)",
+      "business_count": 8139
+    },
+    {
+      "category": "Active Life",
+      "business_count": 7687
+    },
+    {
+      "category": "Pizza",
+      "business_count": 7093
+    },
+    {
+      "category": "Coffee & Tea",
+      "business_count": 6703
+    },
+    {
+      "category": "Fast Food",
+      "business_count": 6472
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "business_count": 6239
+    },
+    {
+      "category": "American (New)",
+      "business_count": 6097
+    },
+    {
+      "category": "Hotels & Travel",
+      "business_count": 5857
+    },
+    {
+      "category": "Home & Garden",
+      "business_count": 5799
+    },
+    {
+      "category": "Fashion",
+      "business_count": 5739
+    },
+    {
+      "category": "Burgers",
+      "business_count": 5636
+    },
+    {
+      "category": "Arts & Entertainment",
+      "business_count": 5434
+    },
+    {
+      "category": "Auto Repair",
+      "business_count": 5433
+    }
+  ]
+}

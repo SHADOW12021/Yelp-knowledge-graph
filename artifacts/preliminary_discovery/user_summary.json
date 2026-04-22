@@ -1,0 +1,43 @@
+{
+  "total_users": 1987897,
+  "user_review_count_stats": {
+    "count": 1987897,
+    "mean": 23.3944,
+    "median": 5.0,
+    "min": 0.0,
+    "max": 17473.0,
+    "p90": 47.0,
+    "p95": 92.0,
+    "p99": 311.0
+  },
+  "user_fan_stats": {
+    "count": 1987897,
+    "mean": 1.4657,
+    "median": 0.0,
+    "min": 0.0,
+    "max": 12497.0,
+    "p90": 2.0,
+    "p95": 4.0,
+    "p99": 26.0
+  },
+  "user_useful_vote_stats": {
+    "count": 1987897,
+    "mean": 42.2963,
+    "median": 3.0,
+    "min": 0.0,
+    "max": 206296.0,
+    "p90": 46.0,
+    "p95": 105.0,
+    "p99": 573.0
+  },
+  "user_average_star_stats": {
+    "count": 1987897,
+    "mean": 3.6305,
+    "median": 3.88,
+    "min": 1.0,
+    "max": 5.0,
+    "p90": 5.0,
+    "p95": 5.0,
+    "p99": 5.0
+  }
+}

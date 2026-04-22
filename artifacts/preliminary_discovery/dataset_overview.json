@@ -1,0 +1,536 @@
+{
+  "business_summary": {
+    "total_businesses": 150346,
+    "open_businesses": 119698,
+    "closed_businesses": 30648,
+    "review_count_stats_from_business_table": {
+      "count": 150346,
+      "mean": 44.8666,
+      "median": 15.0,
+      "min": 5.0,
+      "max": 7568.0,
+      "p90": 97.0,
+      "p95": 173.0,
+      "p99": 473.0
+    },
+    "business_star_stats": {
+      "count": 150346,
+      "mean": 3.5967,
+      "median": 3.5,
+      "min": 1.0,
+      "max": 5.0,
+      "p90": 5.0,
+      "p95": 5.0,
+      "p99": 5.0
+    },
+    "top_states": [
+      {
+        "state": "PA",
+        "business_count": 34039
+      },
+      {
+        "state": "FL",
+        "business_count": 26330
+      },
+      {
+        "state": "TN",
+        "business_count": 12056
+      },
+      {
+        "state": "IN",
+        "business_count": 11247
+      },
+      {
+        "state": "MO",
+        "business_count": 10913
+      },
+      {
+        "state": "LA",
+        "business_count": 9924
+      },
+      {
+        "state": "AZ",
+        "business_count": 9912
+      },
+      {
+        "state": "NJ",
+        "business_count": 8536
+      },
+      {
+        "state": "NV",
+        "business_count": 7715
+      },
+      {
+        "state": "AB",
+        "business_count": 5573
+      },
+      {
+        "state": "CA",
+        "business_count": 5203
+      },
+      {
+        "state": "ID",
+        "business_count": 4467
+      },
+      {
+        "state": "DE",
+        "business_count": 2265
+      },
+      {
+        "state": "IL",
+        "business_count": 2145
+      },
+      {
+        "state": "TX",
+        "business_count": 4
+      },
+      {
+        "state": "CO",
+        "business_count": 3
+      },
+      {
+        "state": "WA",
+        "business_count": 2
+      },
+      {
+        "state": "HI",
+        "business_count": 2
+      },
+      {
+        "state": "MA",
+        "business_count": 2
+      },
+      {
+        "state": "NC",
+        "business_count": 1
+      },
+      {
+        "state": "UT",
+        "business_count": 1
+      },
+      {
+        "state": "MT",
+        "business_count": 1
+      },
+      {
+        "state": "MI",
+        "business_count": 1
+      },
+      {
+        "state": "SD",
+        "business_count": 1
+      },
+      {
+        "state": "XMS",
+        "business_count": 1
+      }
+    ],
+    "top_categories": [
+      {
+        "category": "Restaurants",
+        "business_count": 52268
+      },
+      {
+        "category": "Food",
+        "business_count": 27781
+      },
+      {
+        "category": "Shopping",
+        "business_count": 24395
+      },
+      {
+        "category": "Home Services",
+        "business_count": 14356
+      },
+      {
+        "category": "Beauty & Spas",
+        "business_count": 14292
+      },
+      {
+        "category": "Nightlife",
+        "business_count": 12281
+      },
+      {
+        "category": "Health & Medical",
+        "business_count": 11890
+      },
+      {
+        "category": "Local Services",
+        "business_count": 11198
+      },
+      {
+        "category": "Bars",
+        "business_count": 11065
+      },
+      {
+        "category": "Automotive",
+        "business_count": 10773
+      },
+      {
+        "category": "Event Planning & Services",
+        "business_count": 9895
+      },
+      {
+        "category": "Sandwiches",
+        "business_count": 8366
+      },
+      {
+        "category": "American (Traditional)",
+        "business_count": 8139
+      },
+      {
+        "category": "Active Life",
+        "business_count": 7687
+      },
+      {
+        "category": "Pizza",
+        "business_count": 7093
+      },
+      {
+        "category": "Coffee & Tea",
+        "business_count": 6703
+      },
+      {
+        "category": "Fast Food",
+        "business_count": 6472
+      },
+      {
+        "category": "Breakfast & Brunch",
+        "business_count": 6239
+      },
+      {
+        "category": "American (New)",
+        "business_count": 6097
+      },
+      {
+        "category": "Hotels & Travel",
+        "business_count": 5857
+      },
+      {
+        "category": "Home & Garden",
+        "business_count": 5799
+      },
+      {
+        "category": "Fashion",
+        "business_count": 5739
+      },
+      {
+        "category": "Burgers",
+        "business_count": 5636
+      },
+      {
+        "category": "Arts & Entertainment",
+        "business_count": 5434
+      },
+      {
+        "category": "Auto Repair",
+        "business_count": 5433
+      }
+    ]
+  },
+  "review_summary": {
+    "total_reviews": 6990280,
+    "review_count_per_business_stats": {
+      "count": 150346,
+      "mean": 46.4946,
+      "median": 15.0,
+      "min": 5.0,
+      "max": 7673.0,
+      "p90": 101.0,
+      "p95": 180.0,
+      "p99": 492.0
+    },
+    "review_length_word_stats": {
+      "count": 6990280,
+      "mean": 104.7763,
+      "median": 75.0,
+      "min": 1.0,
+      "max": 1070.0,
+      "p90": 218.0,
+      "p95": 290.0,
+      "p99": 489.0
+    },
+    "useful_vote_stats": {
+      "count": 6990280,
+      "mean": 1.1846,
+      "median": 0.0,
+      "min": -1.0,
+      "max": 1182.0,
+      "p90": 3.0,
+      "p95": 5.0,
+      "p99": 11.0
+    },
+    "top_reviewed_businesses": [
+      {
+        "business_id": "_ab50qdWOk0DdB6XOrBitw",
+        "actual_review_count": 7673,
+        "name": "Acme Oyster House",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Live/Raw Food, Seafood, Restaurants, Cajun/Creole"
+      },
+      {
+        "business_id": "ac1AeYqs8Z4_e2X5M3if2A",
+        "actual_review_count": 7516,
+        "name": "Oceana Grill",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Restaurants, Seafood, Cajun/Creole, Breakfast & Brunch"
+      },
+      {
+        "business_id": "GXFMD0Z4jEVZBCsbPf4CTQ",
+        "actual_review_count": 6160,
+        "name": "Hattie B\u2019s Hot Chicken - Nashville",
+        "city": "Nashville",
+        "state": "TN",
+        "categories": "American (Traditional), Chicken Shop, Southern, Restaurants, Chicken Wings, American (New), Soul Food"
+      },
+      {
+        "business_id": "ytynqOUb3hjKeJfRj5Tshw",
+        "actual_review_count": 5778,
+        "name": "Reading Terminal Market",
+        "city": "Philadelphia",
+        "state": "PA",
+        "categories": "Candy Stores, Shopping, Department Stores, Fast Food, Beer, Wine & Spirits, Fruits & Veggies, Chinese, Food, Ice Cream & Frozen Yogurt, Desserts, Seafood, Health Markets, Bagels, Cheese Shops, Shopping Centers, Chocolatiers & Shops, Meat Shops, Public Markets, Food Court, Wineries, Local Flavor, Ethnic Food, Restaurants, Specialty Food, Arts & Entertainment, Juice Bars & Smoothies, Seafood Markets, Farmers Market, Coffee & Tea, Bakeries, Food Stands, Dinner Theater, Sporting Goods, Grocery, Fashion"
+      },
+      {
+        "business_id": "oBNrLz4EDhiscSlbOl8uAw",
+        "actual_review_count": 5264,
+        "name": "Ruby Slipper - New Orleans",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Restaurants, American (Traditional), American (New), Cafes, Breakfast & Brunch"
+      },
+      {
+        "business_id": "iSRTaT9WngzB8JJ2YKJUig",
+        "actual_review_count": 5254,
+        "name": "Mother's Restaurant",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Cajun/Creole, Restaurants, Event Planning & Services, Southern, Specialty Food, Soul Food, Food, Ethnic Food, American (New), Caterers, Breakfast & Brunch, Sandwiches"
+      },
+      {
+        "business_id": "VQcCL9PiNL_wkGf-uF3fjg",
+        "actual_review_count": 5146,
+        "name": "Royal House",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "American (New), Restaurants, Sandwiches, Seafood, Cajun/Creole"
+      },
+      {
+        "business_id": "_C7QiQQc47AOEv4PE3Kong",
+        "actual_review_count": 4969,
+        "name": "Commander's Palace",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "French, Restaurants, Cocktail Bars, Nightlife, American (New), Cajun/Creole, Breakfast & Brunch, American (Traditional), Bars"
+      },
+      {
+        "business_id": "GBTPC53ZrG1ZBY3DT8Mbcw",
+        "actual_review_count": 4661,
+        "name": "Luke",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "German, Restaurants, Seafood, Cocktail Bars, French, Brasseries, American (New), Nightlife, Bars, Cajun/Creole, Breakfast & Brunch"
+      },
+      {
+        "business_id": "6a4gLLFSgr-Q6CZXDLzBGQ",
+        "actual_review_count": 4480,
+        "name": "Cochon",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Cajun/Creole, Seafood, Restaurants"
+      },
+      {
+        "business_id": "PP3BBaVxZLcJU54uP_wL6Q",
+        "actual_review_count": 4293,
+        "name": "Pat's King of Steaks",
+        "city": "Philadelphia",
+        "state": "PA",
+        "categories": "Italian, American (Traditional), Sandwiches, Fast Food, Restaurants, Local Flavor, Cheesesteaks"
+      },
+      {
+        "business_id": "1b5mnK8bMnnju_cvU65GqQ",
+        "actual_review_count": 4247,
+        "name": "Biscuit Love: Gulch",
+        "city": "Nashville",
+        "state": "TN",
+        "categories": "Burgers, American (Traditional), Breakfast & Brunch, Restaurants, Southern"
+      },
+      {
+        "business_id": "I_3LMZ_1m2mzR0oLIOePIg",
+        "actual_review_count": 4093,
+        "name": "Pappy's Smokehouse",
+        "city": "Saint Louis",
+        "state": "MO",
+        "categories": "Food, Restaurants, Caterers, Smokehouse, Barbeque, Food Trucks, Event Planning & Services"
+      },
+      {
+        "business_id": "VaO-VW3e1kARkU9bP1E7Fw",
+        "actual_review_count": 4034,
+        "name": "Felix's Restaurant & Oyster Bar",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Restaurants, Sandwiches, Seafood, Cajun/Creole"
+      },
+      {
+        "business_id": "qb28j-FNX1_6xm7u372TZA",
+        "actual_review_count": 3971,
+        "name": "Gumbo Shop",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Cajun/Creole, Seafood, Restaurants"
+      },
+      {
+        "business_id": "gTC8IQ_i8zXytWSly3Ttvg",
+        "actual_review_count": 3917,
+        "name": "Cochon Butcher",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Shopping, Butcher, Restaurants, Sandwiches, Food, Meat Shops, Specialty Food"
+      },
+      {
+        "business_id": "yPSejq3_erxo9zdVYTBnZA",
+        "actual_review_count": 3889,
+        "name": "Los Agaves",
+        "city": "Santa Barbara",
+        "state": "CA",
+        "categories": "Mexican, Restaurants"
+      },
+      {
+        "business_id": "wz8ZPfySQczcPgSyd33-HQ",
+        "actual_review_count": 3634,
+        "name": "Grand Sierra Resort and Casino",
+        "city": "Reno",
+        "state": "NV",
+        "categories": "Nightlife, Hotels & Travel, Arts & Entertainment, Music Venues, Hotels, Casinos, Event Planning & Services, Resorts"
+      },
+      {
+        "business_id": "VVH6k9-ycttH3TV_lk5WfQ",
+        "actual_review_count": 3633,
+        "name": "Willie Mae's Scotch House",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Comfort Food, Restaurants, Southern"
+      },
+      {
+        "business_id": "IkY2ticzHEn4QFn8hQLSWg",
+        "actual_review_count": 3428,
+        "name": "Geno's Steaks",
+        "city": "Philadelphia",
+        "state": "PA",
+        "categories": "Sandwiches, Cheesesteaks, Steakhouses, Restaurants"
+      },
+      {
+        "business_id": "QHWYlmVbLC3K6eglWoHVvA",
+        "actual_review_count": 3388,
+        "name": "Datz",
+        "city": "Tampa",
+        "state": "FL",
+        "categories": "Burgers, Bars, Restaurants, American (Traditional), Vegan, Asian Fusion, Cocktail Bars, Breakfast & Brunch, Soul Food, Sandwiches, American (New), Gastropubs, Comfort Food, Nightlife, Wine Bars, Delis"
+      },
+      {
+        "business_id": "9PZxjhTIU7OgPIzuGi89Ew",
+        "actual_review_count": 3264,
+        "name": "El Vez",
+        "city": "Philadelphia",
+        "state": "PA",
+        "categories": "Lounges, Bars, Nightlife, Breakfast & Brunch, Mexican, Restaurants"
+      },
+      {
+        "business_id": "DcBLYSvOuWcNReolRVr12A",
+        "actual_review_count": 3217,
+        "name": "Drago's Seafood Restaurant",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Restaurants, Seafood"
+      },
+      {
+        "business_id": "XnQ84ylyAZwh-XfHGGNBbQ",
+        "actual_review_count": 3210,
+        "name": "Coop's Place",
+        "city": "New Orleans",
+        "state": "LA",
+        "categories": "Cajun/Creole, Nightlife, Bars, Restaurants"
+      },
+      {
+        "business_id": "L5LLN0RafiV1Z9cddzvuCw",
+        "actual_review_count": 3179,
+        "name": "Ulele",
+        "city": "Tampa",
+        "state": "FL",
+        "categories": "Breweries, Food, American (New), Beer, Wine & Spirits, Restaurants, Seafood"
+      }
+    ]
+  },
+  "tip_summary": {
+    "total_tips": 908915,
+    "total_tip_likes": 0,
+    "tip_length_word_stats": {
+      "count": 908915,
+      "mean": 11.1963,
+      "median": 9.0,
+      "min": 1.0,
+      "max": 114.0,
+      "p90": 21.0,
+      "p95": 29.0,
+      "p99": 58.0
+    }
+  },
+  "checkin_summary": {
+    "businesses_with_checkins": 131930,
+    "checkin_count_stats": {
+      "count": 131930,
+      "mean": 101.2421,
+      "median": 20.0,
+      "min": 1.0,
+      "max": 52144.0,
+      "p90": 229.0,
+      "p95": 432.0,
+      "p99": 1282.0
+    }
+  },
+  "user_summary": {
+    "total_users": 1987897,
+    "user_review_count_stats": {
+      "count": 1987897,
+      "mean": 23.3944,
+      "median": 5.0,
+      "min": 0.0,
+      "max": 17473.0,
+      "p90": 47.0,
+      "p95": 92.0,
+      "p99": 311.0
+    },
+    "user_fan_stats": {
+      "count": 1987897,
+      "mean": 1.4657,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 12497.0,
+      "p90": 2.0,
+      "p95": 4.0,
+      "p99": 26.0
+    },
+    "user_useful_vote_stats": {
+      "count": 1987897,
+      "mean": 42.2963,
+      "median": 3.0,
+      "min": 0.0,
+      "max": 206296.0,
+      "p90": 46.0,
+      "p95": 105.0,
+      "p99": 573.0
+    },
+    "user_average_star_stats": {
+      "count": 1987897,
+      "mean": 3.6305,
+      "median": 3.88,
+      "min": 1.0,
+      "max": 5.0,
+      "p90": 5.0,
+      "p95": 5.0,
+      "p99": 5.0
+    }
+  }
+}

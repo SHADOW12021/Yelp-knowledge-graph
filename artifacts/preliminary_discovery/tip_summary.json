@@ -1,0 +1,14 @@
+{
+  "total_tips": 908915,
+  "total_tip_likes": 0,
+  "tip_length_word_stats": {
+    "count": 908915,
+    "mean": 11.1963,
+    "median": 9.0,
+    "min": 1.0,
+    "max": 114.0,
+    "p90": 21.0,
+    "p95": 29.0,
+    "p99": 58.0
+  }
+}

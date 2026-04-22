@@ -1,0 +1,13 @@
+{
+  "businesses_with_checkins": 131930,
+  "checkin_count_stats": {
+    "count": 131930,
+    "mean": 101.2421,
+    "median": 20.0,
+    "min": 1.0,
+    "max": 52144.0,
+    "p90": 229.0,
+    "p95": 432.0,
+    "p99": 1282.0
+  }
+}

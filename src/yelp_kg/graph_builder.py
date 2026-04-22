@@ -29,6 +29,9 @@ def build_graph(
             tip_count=int(row.tip_count),
             checkin_count=int(row.checkin_count),
             categories=row.categories or "",
+            avg_sentiment=float(row.avg_sentiment),
+            positive_share=float(row.positive_share),
+            negative_share=float(row.negative_share),
         )
         if row.city:
             city_id = f"city::{row.city}"
@@ -46,6 +49,9 @@ def build_graph(
             node_type="attribute",
             label=attr["label"],
             topic_id=int(attr["topic_id"]),
+            avg_sentiment=float(attr.get("avg_sentiment", 0.0)),
+            positive_share=float(attr.get("positive_share", 0.0)),
+            negative_share=float(attr.get("negative_share", 0.0)),
         )
         for keyword in attr["keywords"]:
             keyword_id = f"keyword::{keyword}"

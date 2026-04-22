@@ -22,7 +22,10 @@ def stream_jsonl(path: Path) -> Iterator[dict]:
 def load_businesses(config: PipelineConfig) -> pd.DataFrame:
     rows: list[dict] = []
     for row in stream_jsonl(config.paths.business_path):
+        state = row.get("state") or ""
         categories = row.get("categories") or ""
+        if config.state_filter and state.lower() != config.state_filter.lower():
+            continue
         if config.city_filter and row.get("city", "").lower() != config.city_filter.lower():
             continue
         if config.category_filter and config.category_filter.lower() not in categories.lower():
@@ -32,7 +35,7 @@ def load_businesses(config: PipelineConfig) -> pd.DataFrame:
                 "business_id": row["business_id"],
                 "name": row.get("name"),
                 "city": row.get("city"),
-                "state": row.get("state"),
+                "state": state,
                 "stars": row.get("stars"),
                 "review_count": row.get("review_count", 0),
                 "categories": categories,
@@ -48,6 +51,7 @@ def load_businesses(config: PipelineConfig) -> pd.DataFrame:
 def reservoir_sample_reviews(config: PipelineConfig, allowed_business_ids: set[str]) -> pd.DataFrame:
     rng = random.Random(config.random_seed)
     sample: list[dict] = []
+    all_reviews: list[dict] = []
     seen = 0
     for row in stream_jsonl(config.paths.review_path):
         business_id = row.get("business_id")
@@ -69,6 +73,10 @@ def reservoir_sample_reviews(config: PipelineConfig, allowed_business_ids: set[s
             "cool": row.get("cool", 0),
         }
 
+        if config.use_all_reviews:
+            all_reviews.append(entry)
+            continue
+
         seen += 1
         if len(sample) < config.sample_size:
             sample.append(entry)
@@ -78,7 +86,7 @@ def reservoir_sample_reviews(config: PipelineConfig, allowed_business_ids: set[s
         if idx < config.sample_size:
             sample[idx] = entry
 
-    reviews = pd.DataFrame(sample)
+    reviews = pd.DataFrame(all_reviews if config.use_all_reviews else sample)
     if not reviews.empty:
         reviews = reviews.drop_duplicates(subset=["review_id"]).reset_index(drop=True)
     return reviews

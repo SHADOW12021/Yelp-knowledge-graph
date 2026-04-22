@@ -17,6 +17,8 @@ def build_parser() -> argparse.ArgumentParser:
     run_parser.add_argument("--dataset-dir", type=Path, required=True)
     run_parser.add_argument("--output-dir", type=Path, required=True)
     run_parser.add_argument("--sample-size", type=int, default=20_000)
+    run_parser.add_argument("--use-all-reviews", action="store_true")
+    run_parser.add_argument("--state-filter", type=str, default=None)
     run_parser.add_argument("--city-filter", type=str, default=None)
     run_parser.add_argument("--category-filter", type=str, default=None)
     run_parser.add_argument("--min-business-reviews", type=int, default=20)
@@ -31,6 +33,11 @@ def build_parser() -> argparse.ArgumentParser:
     query_parser.add_argument("--artifacts-dir", type=Path, required=True)
     query_parser.add_argument("--text", type=str, required=True)
     query_parser.add_argument("--top-k", type=int, default=10)
+
+    app_parser = subparsers.add_parser("app", help="Launch the interactive explorer app.")
+    app_parser.add_argument("--artifacts-dir", type=Path, required=True)
+    app_parser.add_argument("--host", type=str, default="127.0.0.1")
+    app_parser.add_argument("--port", type=int, default=7860)
     return parser
 
 
@@ -43,6 +50,8 @@ def main() -> None:
             dataset_dir=args.dataset_dir,
             output_dir=args.output_dir,
             sample_size=args.sample_size,
+            use_all_reviews=args.use_all_reviews,
+            state_filter=args.state_filter,
             city_filter=args.city_filter,
             category_filter=args.category_filter,
             min_business_reviews=args.min_business_reviews,
@@ -60,6 +69,13 @@ def main() -> None:
     if args.command == "query":
         results = query_businesses(args.artifacts_dir, args.text, args.top_k)
         print(json.dumps(results, indent=2))
+        return
+
+    if args.command == "app":
+        from .app import launch_app
+
+        demo = launch_app(args.artifacts_dir)
+        demo.launch(server_name=args.host, server_port=args.port)
         return
 
 

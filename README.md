@@ -5,6 +5,7 @@ This project turns the Yelp academic JSON dataset into a structured knowledge sy
 - review text -> semantic embeddings
 - embeddings -> latent attribute clusters
 - clusters -> human-readable labels
+- labels + review sentiment -> richer attribute profiles
 - labels + businesses + keywords -> knowledge graph
 - graph -> semantic querying
 
@@ -56,7 +57,8 @@ This command uses the dataset already in the repo and writes outputs into `artif
 yelp-kg run `
   --dataset-dir "Yelp-JSON\Yelp JSON\yelp_dataset" `
   --output-dir "artifacts\demo_run" `
-  --sample-size 20000 `
+  --state-filter "PA" `
+  --use-all-reviews `
   --min-business-reviews 20 `
   --min-topic-size 25 `
   --top-n-topics 20
@@ -88,14 +90,33 @@ The pipeline writes:
 - `topic_assignments.csv`: review-to-topic assignments
 - `attributes.json`: discovered latent attributes with labels, keywords, and example reviews
 - `business_attributes.json`: business-to-attribute strengths
+- `business_sentiment.json`: aggregated sentiment scores and polarity shares per business
 - `graph.graphml`: knowledge graph for graph tools
 - `graph.json`: JSON export of graph nodes and edges
 - `query_index.json`: compact search index for semantic querying
 - `summary.json`: run metadata and quick stats
 
+## Launch The App
+
+After running the pipeline, launch the interactive explorer:
+
+```powershell
+yelp-kg app `
+  --artifacts-dir "artifacts\demo_run" `
+  --host "127.0.0.1" `
+  --port 7860
+```
+
+The app includes:
+
+- semantic search for businesses
+- sentiment-aware business summaries
+- interactive knowledge graph visualization around a selected business
+
 ## Notes
 
 - The full Yelp review file is several GB, so the default workflow samples reviews instead of embedding everything.
+- Use `--use-all-reviews` if you want every matching review instead of sampling.
 - The code uses BERTopic when available. If BERTopic cannot be imported, it falls back to a TF-IDF + KMeans baseline so the project remains runnable.
 - Optional OpenAI labeling is supported through `OPENAI_API_KEY`, but the default implementation already produces readable labels without it.
 

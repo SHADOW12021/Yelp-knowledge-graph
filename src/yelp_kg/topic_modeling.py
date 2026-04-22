@@ -5,6 +5,8 @@ from dataclasses import dataclass
 import numpy as np
 import pandas as pd
 
+from .device import build_device_banner, detect_torch_device
+
 
 @dataclass(slots=True)
 class TopicModelResult:
@@ -70,8 +72,11 @@ def discover_topics(
 ) -> TopicModelResult:
     from sentence_transformers import SentenceTransformer
 
+    device_info = detect_torch_device()
+    print(build_device_banner("topic_modeling"))
+
     texts = reviews["text"].tolist()
-    embedder = SentenceTransformer(embedding_model_name)
+    embedder = SentenceTransformer(embedding_model_name, device=device_info.device)
     embeddings = embedder.encode(texts, show_progress_bar=True, normalize_embeddings=True)
 
     try:

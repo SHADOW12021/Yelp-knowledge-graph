@@ -5,6 +5,8 @@ from pathlib import Path
 
 import numpy as np
 
+from .device import build_device_banner, detect_torch_device
+
 
 def build_query_index(
     output_dir: Path,
@@ -13,8 +15,11 @@ def build_query_index(
 ) -> None:
     from sentence_transformers import SentenceTransformer
 
+    device_info = detect_torch_device()
+    print(build_device_banner("query_index"))
+
     texts = [row["search_text"] for row in business_rows]
-    embedder = SentenceTransformer(embedding_model_name)
+    embedder = SentenceTransformer(embedding_model_name, device=device_info.device)
     embeddings = embedder.encode(texts, show_progress_bar=True, normalize_embeddings=True)
 
     payload = {
@@ -34,10 +39,13 @@ def build_query_index(
 def query_businesses(artifacts_dir: Path, text: str, top_k: int) -> list[dict]:
     from sentence_transformers import SentenceTransformer
 
+    device_info = detect_torch_device()
+    print(build_device_banner("query"))
+
     with (artifacts_dir / "query_index.json").open("r", encoding="utf-8") as handle:
         payload = json.load(handle)
 
-    embedder = SentenceTransformer(payload["embedding_model"])
+    embedder = SentenceTransformer(payload["embedding_model"], device=device_info.device)
     query_embedding = embedder.encode([text], normalize_embeddings=True)[0]
 
     scored: list[dict] = []
@@ -51,6 +59,7 @@ def query_businesses(artifacts_dir: Path, text: str, top_k: int) -> list[dict]:
                 "score": round(score, 4),
                 "attributes": row["attributes"],
                 "categories": row["categories"],
+                "avg_sentiment": row.get("avg_sentiment"),
             }
         )
 

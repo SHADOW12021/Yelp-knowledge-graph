@@ -34,7 +34,9 @@ class PipelineConfig:
     dataset_dir: Path
     output_dir: Path
     sample_size: int = 20_000
+    use_all_reviews: bool = False
     random_seed: int = 42
+    state_filter: str | None = None
     city_filter: str | None = None
     category_filter: str | None = None
     min_business_reviews: int = 20

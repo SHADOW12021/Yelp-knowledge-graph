@@ -12,11 +12,14 @@ dependencies = [
   "numpy>=1.26",
   "pandas>=2.2",
   "networkx>=3.2",
+  "plotly>=5.24",
   "scikit-learn>=1.5",
   "sentence-transformers>=3.0",
   "bertopic>=0.16",
+  "gradio>=5.0",
   "umap-learn>=0.5",
   "hdbscan>=0.8",
+  "vaderSentiment>=3.3.2",
 ]
 
 [project.optional-dependencies]
@@ -26,6 +29,7 @@ llm = [
 
 [project.scripts]
 yelp-kg = "yelp_kg.cli:main"
+yelp-kg-app = "yelp_kg.app:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

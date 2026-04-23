@@ -195,10 +195,10 @@ def launch_app(artifacts_dir: Path) -> gr.Blocks:
 
     custom_css = """
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600&display=swap');
-    body, .gradio-container { background: linear-gradient(135deg, #f7f1e5 0%, #e8dcc7 45%, #d6c6ae 100%); color: #333333; }
+    body, .gradio-container { background: linear-gradient(135deg, #f7f1e5 0%, #e8dcc7 45%, #d6c6ae 100%); }
     .gradio-container { font-family: 'Space Grotesk', sans-serif; }
-    h1, h2, p { font-family: 'Fraunces', serif; color: #333333; }
-    black_label { color: #333333; font-size: 17px; }
+    h1, h2, h3, p, ul, li { font-family: 'Fraunces', serif; color: #333333; }
+    black_label { color: #333333;}
     """
 
     with gr.Blocks(css=custom_css, title="Yelp Latent Attribute Explorer") as demo:
@@ -215,7 +215,7 @@ def launch_app(artifacts_dir: Path) -> gr.Blocks:
         results = gr.Dataframe(label="Semantic matches", interactive=False, elem_id="black_label")
         selection = gr.Dropdown(label="Choose a business to inspect", choices=[])
         graph_plot = gr.Plot(label="Knowledge graph view")
-        details = gr.Markdown(label="Business details")
+        details = gr.Markdown(label="Business details", elem_id="black_label")
 
         run_button.click(
             run_query,

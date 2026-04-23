@@ -9,5 +9,6 @@ build/
 *.egg-info/
 Yelp-JSON/
 Yelp-JSON.zip
+*.zip
 *.tar
 __MACOSX/

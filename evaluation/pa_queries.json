@@ -1,0 +1,62 @@
+[
+  {
+    "query": "quiet coffee shop to work",
+    "target_categories": ["Coffee & Tea", "Cafes"]
+  },
+  {
+    "query": "romantic italian dinner spot",
+    "target_categories": ["Italian", "Restaurants"]
+  },
+  {
+    "query": "late night bar with drinks",
+    "target_categories": ["Bars", "Nightlife", "Cocktail Bars"]
+  },
+  {
+    "query": "cheap pizza place",
+    "target_categories": ["Pizza", "Restaurants"]
+  },
+  {
+    "query": "sushi restaurant",
+    "target_categories": ["Sushi Bars", "Japanese", "Restaurants"]
+  },
+  {
+    "query": "mexican food restaurant",
+    "target_categories": ["Mexican", "Restaurants"]
+  },
+  {
+    "query": "bakery for desserts",
+    "target_categories": ["Bakeries", "Desserts"]
+  },
+  {
+    "query": "hotel for weekend stay",
+    "target_categories": ["Hotels", "Hotels & Travel"]
+  },
+  {
+    "query": "gym and fitness center",
+    "target_categories": ["Gyms", "Fitness & Instruction", "Active Life"]
+  },
+  {
+    "query": "grocery store nearby",
+    "target_categories": ["Grocery", "Food"]
+  },
+  {
+    "query": "hair salon appointment",
+    "target_categories": ["Hair Salons", "Beauty & Spas"]
+  },
+  {
+    "query": "dentist office",
+    "target_categories": ["Dentists", "Health & Medical"]
+  },
+  {
+    "query": "pharmacy and drug store",
+    "target_categories": ["Drugstores", "Pharmacy", "Shopping"]
+  },
+  {
+    "query": "veterinary clinic for pets",
+    "target_categories": ["Veterinarians", "Pets"]
+  },
+  {
+    "query": "auto repair shop",
+    "target_categories": ["Auto Repair", "Automotive"]
+  }
+]

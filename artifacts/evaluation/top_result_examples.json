@@ -1,0 +1,347 @@
+[
+  {
+    "query": "quiet coffee shop to work",
+    "top_results": [
+      {
+        "business_id": "a-dPw0ISYHoxMmWgd4mK-g",
+        "name": "Starbucks",
+        "city": "Philadelphia",
+        "categories": "Food, Coffee & Tea",
+        "attributes": [
+          "coffee-focused casual hangout",
+          "experience centered on rude, customer, horrible",
+          "experience centered on dirty, filthy, bathroom",
+          "cleanliness and comfort"
+        ]
+      },
+      {
+        "business_id": "ZFSt9QDyAgz5qKRfxCZWAg",
+        "name": "Starbucks",
+        "city": "Plymouth Meeting",
+        "categories": "Food, Coffee & Tea",
+        "attributes": [
+          "coffee-focused casual hangout",
+          "experience centered on dirty, filthy, bathroom",
+          "parking and accessibility convenience",
+          "experience centered on cashier, rude, rudest"
+        ]
+      },
+      {
+        "business_id": "BaSwNEingTmrBw4shffK5w",
+        "name": "Function Coffee Labs",
+        "city": "Philadelphia",
+        "categories": "Bakeries, Restaurants, Breakfast & Brunch, Desserts, Food, Coffee Roasteries, Coffee & Tea",
+        "attributes": [
+          "coffee-focused casual hangout",
+          "coffee-focused casual hangout",
+          "coffee-focused casual hangout",
+          "coffee-focused casual hangout",
+          "coffee-focused casual hangout"
+        ]
+      },
+      {
+        "business_id": "bdRy9zeUgvcMkNhmr4QBqw",
+        "name": "Town Hall Coffee",
+        "city": "Merion Station",
+        "categories": "Food, Restaurants, Breakfast & Brunch, Coffee & Tea",
+        "attributes": [
+          "coffee-focused casual hangout",
+          "coffee-focused casual hangout",
+          "experience centered on ethiopian, injera, almaz",
+          "coffee-focused casual hangout",
+          "experience centered on yelp, reviews, review"
+        ]
+      },
+      {
+        "business_id": "48hwr-F1xEFfHdTD1ueE2A",
+        "name": "Starbucks",
+        "city": "Philadelphia",
+        "categories": "Coffee & Tea, Food",
+        "attributes": [
+          "coffee-focused casual hangout",
+          "experience centered on dirty, filthy, bathroom",
+          "service quality and staff experience",
+          "experience centered on baristas, clustefuck, proximitythe"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "romantic italian dinner spot",
+    "top_results": [
+      {
+        "business_id": "gIzKVqQf-sU_BngnhqyOpw",
+        "name": "Pietro's Pizza",
+        "city": "Wayne",
+        "categories": "Event Planning & Services, Party & Event Planning, Pizza, Restaurants, Italian, Caterers",
+        "attributes": [
+          "experience centered on pietros, pietro, italian",
+          "nightlife and bar scene",
+          "music-driven social atmosphere",
+          "experience centered on calamari, ravioli, appetizer",
+          "experience centered on italian, italy, authentic"
+        ]
+      },
+      {
+        "business_id": "eEKl9ZI-QB_p4XcNPXToHQ",
+        "name": "Fratelli's Italian Bistro",
+        "city": "Philadelphia",
+        "categories": "Restaurants, Italian",
+        "attributes": [
+          "experience centered on italian, italy, authentic",
+          "experience centered on italian, south, philly",
+          "experience centered on philly, philadelphia, visiting",
+          "experience centered on calamari, ravioli, appetizer",
+          "experience centered on gnocchi, gorgonzola, pasta"
+        ]
+      },
+      {
+        "business_id": "dtP1I4R6iiCsV_4WUKg0Bw",
+        "name": "Villaggio's Italian Restaurant",
+        "city": "Lahaska",
+        "categories": "Restaurants, Italian",
+        "attributes": [
+          "experience centered on italian, italy, authentic",
+          "experience centered on gnocchi, gorgonzola, pasta",
+          "music-driven social atmosphere",
+          "experience centered on byob, byo, byobs",
+          "experience centered on byob, italian, byo"
+        ]
+      },
+      {
+        "business_id": "fTQs7fBggnYlKGbujXw76w",
+        "name": "Bertucci's Italian Restaurant",
+        "city": "Plymouth Meeting",
+        "categories": "Desserts, Food, Italian, Pizza, Restaurants",
+        "attributes": [
+          "experience centered on bertuccis, bertucci, chain",
+          "experience centered on hostess, table, seated",
+          "experience centered on margaritas, margarita, tequila",
+          "experience centered on pizza, dominos, delivery",
+          "experience centered on italian, italy, authentic"
+        ]
+      },
+      {
+        "business_id": "bamt7SpfNB7axYZu27l-1Q",
+        "name": "Ristorante San Marco",
+        "city": "Ambler",
+        "categories": "Nightlife, Italian, Restaurants, Event Planning & Services, Bars, Venues & Event Spaces",
+        "attributes": [
+          "experience centered on italian, italy, authentic",
+          "experience centered on calamari, ravioli, appetizer",
+          "experience centered on hostess, table, seated",
+          "experience centered on stars, star, five",
+          "experience centered on italian, south, philly"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "late night bar with drinks",
+    "top_results": [
+      {
+        "business_id": "A9sMtVnx0mc6juPNExJJfg",
+        "name": "The Handle Bar",
+        "city": "Philadelphia",
+        "categories": "Bars, Nightlife",
+        "attributes": [
+          "nightlife and bar scene",
+          "experience centered on beer, beers, selection",
+          "nightlife and bar scene",
+          "nightlife and bar scene",
+          "experience centered on closed, open, closing"
+        ]
+      },
+      {
+        "business_id": "j95Z749kLfchv_UTpxVpag",
+        "name": "Tavern 222",
+        "city": "Philadelphia",
+        "categories": "Bars, Pubs, Nightlife, Sports Bars",
+        "attributes": [
+          "nightlife and bar scene",
+          "experience centered on margaritas, margarita, tequila",
+          "experience centered on beer, beers, selection",
+          "music-driven social atmosphere",
+          "service quality and staff experience"
+        ]
+      },
+      {
+        "business_id": "l9U0fpXrdJ2WDgKI4MGuOw",
+        "name": "Bar",
+        "city": "Philadelphia",
+        "categories": "Bars, Beer Bar, Pool Halls, Hot Dogs, Restaurants, Pubs, Sports Bars, Nightlife, Dive Bars",
+        "attributes": [
+          "nightlife and bar scene",
+          "nightlife and bar scene",
+          "experience centered on beer, beers, selection",
+          "nightlife and bar scene",
+          "nightlife and bar scene"
+        ]
+      },
+      {
+        "business_id": "2l2znqydic45GQfgCblQLg",
+        "name": "HotelBar",
+        "city": "Philadelphia",
+        "categories": "Bars, Restaurants, Nightlife, American (Traditional)",
+        "attributes": [
+          "experience centered on beer, beers, selection",
+          "experience centered on hotel, stay, rooms",
+          "romantic date-night atmosphere"
+        ]
+      },
+      {
+        "business_id": "PzqwENhkS_x5Czwn-dV6fQ",
+        "name": "The Library Bar",
+        "city": "Philadelphia",
+        "categories": "Cocktail Bars, Bars, Nightlife",
+        "attributes": [
+          "nightlife and bar scene",
+          "nightlife and bar scene",
+          "experience centered on beer, beers, selection",
+          "experience centered on hostess, table, seated",
+          "music-driven social atmosphere"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "cheap pizza place",
+    "top_results": [
+      {
+        "business_id": "7kgF1JYwZQMUrHpBsULC2g",
+        "name": "The Best House Pizzeria",
+        "city": "Philadelphia",
+        "categories": "Pizza, Restaurants",
+        "attributes": [
+          "experience centered on pizza, dominos, delivery",
+          "experience centered on beer, pizza, pizzas",
+          "experience centered on beer, beers, selection",
+          "experience centered on delivery, driver, order",
+          "experience centered on closed, open, closing"
+        ]
+      },
+      {
+        "business_id": "VEtWK_cwTQSgL03RIvJA8g",
+        "name": "Little Italy Pizza",
+        "city": "Fort Washington",
+        "categories": "Pizza, Restaurants",
+        "attributes": [
+          "experience centered on pizza, dominos, delivery",
+          "service quality and staff experience",
+          "experience centered on wings, wing, buffalo",
+          "experience centered on stromboli, strombolis, pepperoni",
+          "experience centered on delivery, cold, arrives"
+        ]
+      },
+      {
+        "business_id": "dMOv-lIQ9-2TGOfuAyzgOg",
+        "name": "Little Sicily Pizza",
+        "city": "Philadelphia",
+        "categories": "Italian, Restaurants, Pizza",
+        "attributes": [
+          "experience centered on pizza, philly, crust",
+          "experience centered on sicilian, pizza, crust",
+          "experience centered on delivery, driver, order",
+          "experience centered on pizza, dominos, delivery",
+          "experience centered on grubhub, grub, hub"
+        ]
+      },
+      {
+        "business_id": "jNxvJeAUzzpC7zW3UN78HA",
+        "name": "Pizza Shackamaxon",
+        "city": "Philadelphia",
+        "categories": "Restaurants, Fast Food, Pizza",
+        "attributes": [
+          "experience centered on crust, pizza, thin",
+          "experience centered on pizza, philly, crust",
+          "experience centered on pie, tomato, pies",
+          "experience centered on pizza, pizzas, area",
+          "experience centered on slice, slices, crust"
+        ]
+      },
+      {
+        "business_id": "uxE5yRYR98oPgc0AFCD26Q",
+        "name": "Pizza Paradise",
+        "city": "Lansdowne",
+        "categories": "Pizza, Restaurants",
+        "attributes": [
+          "experience centered on pizza, dominos, delivery",
+          "experience centered on wings, pizza, buffalo",
+          "service quality and staff experience",
+          "experience centered on delivery, driver, order",
+          "experience centered on hoagie, hoagies, italian"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "sushi restaurant",
+    "top_results": [
+      {
+        "business_id": "K_s-9Wd6vXSfnxYFzhE0Kw",
+        "name": "Kei Sushi Restaurant",
+        "city": "Philadelphia",
+        "categories": "Sushi Bars, Restaurants",
+        "attributes": [
+          "experience centered on sushi, byob, fresh",
+          "experience centered on sushi, roll, rolls",
+          "experience centered on sushi, rolls, roll",
+          "service quality and staff experience",
+          "experience centered on roll, tempura, rolls"
+        ]
+      },
+      {
+        "business_id": "fIxzyxcJZ2-04TZ68DkXtA",
+        "name": "Sushi House",
+        "city": "Jenkintown",
+        "categories": "Sushi Bars, Restaurants, Japanese",
+        "attributes": [
+          "experience centered on sushi, byob, fresh",
+          "experience centered on sushi, roll, rolls",
+          "experience centered on ayce, sushi, rolls",
+          "experience centered on sushi, allyoucaneat, waitress",
+          "experience centered on hostess, table, seated"
+        ]
+      },
+      {
+        "business_id": "Ql466RUZPLvKo_Cc9kIWzQ",
+        "name": "New Kimono Sushi Bar Japanese & Chinese Restaurant",
+        "city": "Lafayette Hill",
+        "categories": "Sushi Bars, Japanese, Chinese, Restaurants",
+        "attributes": [
+          "experience centered on sushi, byob, fresh",
+          "experience centered on chinese, sushi, asian",
+          "experience centered on sushi, roll, rolls",
+          "experience centered on chinese, china, takeout",
+          "experience centered on closed, open, closing"
+        ]
+      },
+      {
+        "business_id": "x7rGLPiCGM1wqq3MCAQpTQ",
+        "name": "Sushi Garden & Kitchen",
+        "city": "Philadelphia",
+        "categories": "Restaurants, Sushi Bars, Japanese, Thai, Chinese",
+        "attributes": [
+          "experience centered on sushi, byob, fresh",
+          "service quality and staff experience",
+          "experience centered on sushi, roll, rolls",
+          "experience centered on sushi, rolls, roll",
+          "experience centered on roll, tempura, rolls"
+        ]
+      },
+      {
+        "business_id": "E5oa5ubbMvA1Ooypvis7jA",
+        "name": "Sushi House",
+        "city": "Willow Grove",
+        "categories": "Restaurants, Japanese, Sushi Bars",
+        "attributes": [
+          "experience centered on sushi, byob, fresh",
+          "experience centered on sushi, roll, rolls",
+          "experience centered on sushi, rolls, roll",
+          "service quality and staff experience",
+          "experience centered on gratuity, tip, bill"
+        ]
+      }
+    ]
+  }
+]

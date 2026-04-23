@@ -1,0 +1,16 @@
+query,relevant_businesses,category_exact_match_p5,tfidf_business_text_p5,embedding_without_latent_attributes_p5,proposed_embedding_with_latent_attributes_p5
+quiet coffee shop to work,1191,1.0,0.6,1.0,1.0
+romantic italian dinner spot,8294,1.0,0.8,1.0,1.0
+late night bar with drinks,2383,1.0,0.6,1.0,1.0
+cheap pizza place,8294,1.0,0.8,1.0,1.0
+sushi restaurant,8294,1.0,1.0,1.0,1.0
+mexican food restaurant,8294,1.0,1.0,1.0,1.0
+bakery for desserts,823,1.0,1.0,1.0,1.0
+hotel for weekend stay,484,0.0,1.0,1.0,1.0
+gym and fitness center,507,1.0,1.0,1.0,1.0
+grocery store nearby,4365,1.0,1.0,1.0,1.0
+hair salon appointment,1244,1.0,1.0,1.0,1.0
+dentist office,605,0.2,0.4,1.0,1.0
+pharmacy and drug store,1344,1.0,1.0,1.0,1.0
+veterinary clinic for pets,268,1.0,1.0,1.0,1.0
+auto repair shop,622,1.0,1.0,1.0,1.0
